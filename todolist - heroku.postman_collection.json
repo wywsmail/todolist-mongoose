@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "bf49843c-5fe1-4b45-a22f-95f1055414db",
+		"name": "todolist - heroku",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "取得所有代辦",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://secure-savannah-76450.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"secure-savannah-76450",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"title\":\"好想睡覺\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://secure-savannah-76450.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"secure-savannah-76450",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除所有代辦",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://secure-savannah-76450.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"secure-savannah-76450",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "刪除單筆代辦",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://secure-savannah-76450.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"secure-savannah-76450",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "編輯單筆代辦",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "https://secure-savannah-76450.herokuapp.com/todos",
+					"protocol": "https",
+					"host": [
+						"secure-savannah-76450",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
