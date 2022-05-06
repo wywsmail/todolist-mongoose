@@ -86,7 +86,8 @@ const requestListener = async (
 				// 		ele.id === id;
 				// 	}
 				// );
-				const data = JSOn.parse(body);
+				const data = JSON.parse(body);
+				console.log(data);
 				if (data.content !== "") {
 					let {
 						content,
