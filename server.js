@@ -98,7 +98,7 @@ const requestListener = async (
 						await Post.findByIdAndUpdate(
 							id,
 							{
-								Set$: {
+								set$: {
 									content,
 									image,
 									likes
